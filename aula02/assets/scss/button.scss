@@ -1,4 +1,9 @@
-@mixin btn {
+@mixin button-style($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+.btn {
     width: 200px;
     padding: 10px 0;
     background-color: none;
@@ -6,26 +11,16 @@
     border-radius: 10px;
     display: block;
     margin: 10px 0;
-}
-
-@mixin button-style($background, $color) {
-    background-color: $background;
-    color: $color;
-}
-
-.btn-laranja {
-    @include btn;
-    @include button-style($color-1, #FFF)
-}
-.btn-vermelho {
-    @include btn;
-    @include button-style($color-2, #FFF)
-}
-.btn-azul {
-    @include btn;
-    @include button-style($color-3, #FFF)
-}
-.btn-roxo {
-    @include btn;
-    @include button-style($color-4, #FFF)
+    &.btn-laranja {
+        @include button-style($color-1, #FFF)
+    }
+    &.btn-vermelho {
+        @include button-style($color-2, #FFF)
+    }
+    &.btn-azul {
+        @include button-style($color-3, #FFF)
+    }
+    &.btn-roxo {
+        @include button-style($color-4, #FFF)
+    }
 }

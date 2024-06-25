@@ -1,4 +1,4 @@
-.btn-laranja {
+.btn {
   width: 200px;
   padding: 10px 0;
   background-color: none;
@@ -6,42 +6,20 @@
   border-radius: 10px;
   display: block;
   margin: 10px 0;
+}
+.btn.btn-laranja {
   background-color: orange;
   color: #FFF;
 }
-
-.btn-vermelho {
-  width: 200px;
-  padding: 10px 0;
-  background-color: none;
-  border: none;
-  border-radius: 10px;
-  display: block;
-  margin: 10px 0;
+.btn.btn-vermelho {
   background-color: red;
   color: #FFF;
 }
-
-.btn-azul {
-  width: 200px;
-  padding: 10px 0;
-  background-color: none;
-  border: none;
-  border-radius: 10px;
-  display: block;
-  margin: 10px 0;
+.btn.btn-azul {
   background-color: blue;
   color: #FFF;
 }
-
-.btn-roxo {
-  width: 200px;
-  padding: 10px 0;
-  background-color: none;
-  border: none;
-  border-radius: 10px;
-  display: block;
-  margin: 10px 0;
+.btn.btn-roxo {
   background-color: purple;
   color: #FFF;
 }
