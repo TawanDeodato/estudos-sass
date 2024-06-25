@@ -6,6 +6,9 @@ p {
     b {
         background-color: black;
     }
+    &:hover {
+        background-color: gray;
+    }
 }
 
 
