@@ -1,17 +1,49 @@
-.btn, .btn-laranja {
+.btn-laranja {
   width: 200px;
   padding: 10px 0;
   background-color: none;
   border: none;
   border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: orange;
+  color: #FFF;
 }
 
-.btn-laranja {
+.btn-vermelho {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
   background-color: red;
+  color: #FFF;
 }
 
-p {
-  color: red;
+.btn-azul {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: blue;
+  color: #FFF;
+}
+
+.btn-roxo {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: purple;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
