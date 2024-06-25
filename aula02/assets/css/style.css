@@ -11,17 +11,33 @@
   background-color: orange;
   color: #FFF;
 }
+.btn.btn-laranja:hover {
+  background: #cc8400;
+  transition: all 0.3s ease;
+}
 .btn.btn-vermelho {
   background-color: red;
   color: #FFF;
+}
+.btn.btn-vermelho:hover {
+  background: #cc0000;
+  transition: all 0.3s ease;
 }
 .btn.btn-azul {
   background-color: blue;
   color: #FFF;
 }
+.btn.btn-azul:hover {
+  background: #0000cc;
+  transition: all 0.3s ease;
+}
 .btn.btn-roxo {
   background-color: purple;
   color: #FFF;
+}
+.btn.btn-roxo:hover {
+  background: #4d004d;
+  transition: all 0.3s ease;
 }
 
 /*# sourceMappingURL=style.css.map */

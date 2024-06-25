@@ -1,6 +1,10 @@
 @mixin button-style($background, $color) {
     background-color: $background;
     color: $color;
+    &:hover {
+        background: darken($background, 10%);
+        transition: all .3s ease;
+    }
 }
 
 .btn {
